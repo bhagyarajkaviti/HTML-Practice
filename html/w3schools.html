@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>html practice</title>
+        <style>
+            h3 {
+                color: blue;
+                font-family: verdana;
+                font: size 100px;
+            }
+            p {
+                color: red;
+                font-family: courier;
+                font-size: 160%;
+                border: 2px solid rgb(230, 176, 198);
+                margin: 20px;
+                text-align: center;
+                
+            } 
+            a {
+                font-size: 50px;
+                text-align: center;
+                padding-left: 800px;
+                color: blueviolet;
+                text-decoration: none;
+                
+            }   
+            a:link{
+                color: green;
+            }       
+            a:hover{
+                color: rgb(241, 27, 195);
+                text-decoration: underline;
+            }
+            a:active{
+                color: yellowgreen;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <!--headings-->
+        <h1 style="color:green;">heading one111</h1>
+        <hr> <!--thematic break-->
+        <h2 style="text-align:center ;">heading two</h2>
+        <h3 style="background-color:powderblue;"  >heading three</h3>
+        <h4 style="background-color:rgb(226, 211, 43);">heading four</h4>
+        <h5>heading five</h5>
+        <h6>heading six</h6>
+        <p>
+            <h3>What is HTML?</h3>
+            <img src="images/Thinking-Face.webp" alt="thiinking face" width="100" height="80" style="float:left;">
+            <b>HTML</b> stands for <strong> Hyper Text Markup Language. </strong> <br>
+            HTML is the <i> standard markup language</i> for creating <em> Web pages. </em><br>
+            <small>HTML describes the structure of a Web page.</small> <br>
+            HTML consists of a <mark> series of elements.</mark>> <br>
+            HTML elements tell the browser how to display the content. <br>
+            HTML elements label pieces of content such as "this is a heading",<q>this is a paragraph</q>, "this is a link", etc.
+            <br>        
+        </p>
+        <p>My favorite color is <del>blue</del> <ins>white</ins>.<br></p>
+        <p>quadratic equation: <br> ax <sup>2</sup>+bx+c=0 <br>
+        photosynthesis equation: <br>
+        6CO <sub>2</sub>+ 6H <sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
+        </p>
+        
+
+        <p>
+            
+
+            <h3>View HTML Source Code:</h3>
+            Right-click in an HTML page and select "View Page Source" (in Chrome) <br> or "View Source" (in Edge), <br> or similar in other browsers. This will open a window containing the HTML source code of the page.
+        </p>
+        <p>
+            <h3>Inspect an HTML Element:</h3>
+            Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+        </p>
+        <p style="color:red;">This is a red paragraph.</p>
+        <pre style="font-size:20px;"> <!--preformatted text-->
+            <abbr title="The HyperText Markup Language">HTML</abbr>                 <abbr title="Cascading Style Sheets">CSS</abbr>             javascript.
+            python               core java      reactjs.
+            nodejs               mongoDB        DBMS
+            DSA                  Angular        wordpress
+        </pre>
+        <h3>address:</h3>
+        <address>
+            Chanikyapuri colony,<br> Pothinamallayya Palem,<br> Visakhapatnam,<br> Andhra Pradesh 530048
+        </address>
+        <a href="mailto:bhagyarajkaviti@gmail.com">Send email</a>
+        <p> <cite> Diesel Engine</cite> was invented by Rudolf Diesel in 1892</p>
+        <!-- <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).-->
+        <a href="what-is -css.html" target="_blank"> what is css</a>
+        <a href="what-is -css.html" target="_top"> what is css</a>
+        <a href="what-is -css.html" target="_blank"><img src="images/eye-smiley.png" alt="eye eye-smiley" width="100" height="100"></a>
+        <button onclick="document.location='what-is -css.html'">what is CSS?</button>
+        <h2>Image Maps</h2>
+        <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+        <img src="images/workplace.jpg" alt="work place" width="400" height="379" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" href="computer.html" target="_blank" alt="computer">
+            <area shape="rect" coords="290,172,333,250" href="mobile.html" target="_blank" alt="mobile">
+            <area shape="circle" coords="337,300,44" href="coffie.html" target="_blank" alt="coffee">
+        </map>
+    </body>   
+</html>
